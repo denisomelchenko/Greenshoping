@@ -1,0 +1,44 @@
+
+    
+*{
+    box-sizing: border-box;
+}
+  body{
+    margin: 0%;
+  }
+    
+
+p{
+    color: rgb(83, 124, 39);
+}
+
+.box{
+    background: #1fe4b9;
+}
+p{
+    font-size: 20px;
+    color: rgb(71, 43, 28);
+}
+form{
+    font-size: 20px;
+    color: black;
+}
+::placeholder{
+    color: rgb(94, 94, 99);
+}
+input{
+    border-color: rgb(8, 8, 216);
+}
+ .form-holder{width: 500px;margin: 0 auto;padding:  30px;}
+    input {display: block; width: 98%;}
+    div p{
+        color: blue;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+
+    }
+    .register{
+        font-size: 30px;
+    }
