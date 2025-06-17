@@ -43,6 +43,7 @@ input {
 .header_login,
 .header_menu {
   display: inline-block;
+
 }
 
 .header {
@@ -82,7 +83,11 @@ input {
   text-align: center;
   vertical-align: middle;
 
+
+
 }
+
+
 
 
 
@@ -92,6 +97,7 @@ input {
   margin: 15px;
 
 }
+
 
 
 
@@ -141,7 +147,7 @@ input {
 .button:hover {
   color: #1e9178;
   background: #fff;
-  text-decoration: underline;
+
 
 
 }
@@ -154,4 +160,9 @@ input {
   color: #000000;
   text-decoration: none;
 
+
+}
+
+.header_menu a:hover {
+  text-decoration: underline;
 }
