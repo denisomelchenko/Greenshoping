@@ -165,4 +165,5 @@ input {
 
 .header_menu a:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
