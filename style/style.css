@@ -124,16 +124,26 @@ input {
 }
 
 .button {
-  width: 100px;
+  min-width: 100px;
   font-size: 16px;
   vertical-align: middle;
   background-color: #2b8a75;
   text-align: center;
   padding: 8px;
-  color: rgb(205, 220, 233);
+  color: rgb(225, 230, 235);
   text-decoration: none;
   border-radius: 6px;
   border: 2px solid green;
+
+
+}
+
+.button:hover {
+  color: #1e9178;
+  background: #fff;
+  text-decoration: underline;
+
+
 }
 
 .my_list {
@@ -142,4 +152,6 @@ input {
 
 .header_menu a {
   color: #000000;
+  text-decoration: none;
+
 }
