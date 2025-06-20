@@ -7,6 +7,10 @@
   <title>Greenshop</title>
   <link rel="stylesheet" href="style/reset.css" />
   <link rel="stylesheet" href="style/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
 </head>
 
@@ -14,21 +18,24 @@
 <body>
 
   <header class="header">
-    <strong class="header_logo"><img src="images/logo.svg" alt="logo" /></strong>
-    <nav class="header_menu">
-
-      <ul>
-        <li>
-          <a href="">Home</a>
-        </li>
-        <li><a href="">Shop</a></li>
-        <li><a href="">Plant Care</a></li>
-        <li><a href="">Blogs</a></li>
-      </ul>
-    </nav>
-    <a href="#" class="header_login">Login</a>
+    <div class="container">
+      <strong class="header_logo"><img src="images/logo.svg" alt="logo" /></strong>
+      <nav class="header_menu">
+        <ul>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">Plant Care</a></li>
+          <li><a href="">Blogs</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="header_login">Login</a>
+    </div>
   </header>
-  <main>
+
+  <main class="container">
+
     <section class="visual">
       <div class="visual_text">
         <h1>WELCOME TO GREENSHOP</h1>
@@ -42,9 +49,69 @@
       </div>
       <div class="visual_img">
         <img src="images/img-banner.png" alt="flower" />
-
       </div>
     </section>
+
+    <div class="content clearfix">
+      <!-- ліва колонка -->
+      <aside class="sidebare">
+        <p>Categories</p>
+        <ul class="sidebare__menu">
+          <li>House Planst</li>
+          <li>Potter Plants</li>
+          <li>Seeds</li>
+          <li>Small plants</li>
+          <li>Big Plants</li>
+          <li>Succulents</li>
+          <li>Treraiums</li>
+          <li>Gardening</li>
+          <li>Accesories</li>
+        </ul>
+        <img src="images/banner.svg" alt="">
+      </aside>
+      <!-- права колонка -->
+      <section class="content-holder">
+        <div class="filter clearfix ">
+          <ul>
+            <li>All Planst</li>
+            <li>New Arivals</li>
+            <li>Sale</li>
+          </ul>
+        </div>
+        <div class="box_filter">
+          <p>Short by:default storing</p>
+
+        </div>
+
+        <div class="cards">
+          <div>
+            <img src="images/p5.png">
+            <p>Blushing Bromeliad</p>
+            <p><span class="color_text">139.00$</span></p>
+          </div>
+          <div>
+
+
+
+
+
+
+          </div>
+          <div class="pagination">
+
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+            </ul>
+
+
+          </div>
+      </section>
+    </div>
+
+
   </main>
 </body>
 

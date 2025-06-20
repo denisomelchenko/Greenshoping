@@ -1,3 +1,34 @@
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('/fonts/CeraPro-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('/fonts/CeraPro-BlackItalic.woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: "Cera Pro", sans-serif;
+  font-size: 14px;
+
+}
+
 p {
   color: rgb(12, 15, 9);
   font-size: 20px;
@@ -166,4 +197,100 @@ input {
 .header_menu a:hover {
   text-decoration: underline;
   font-weight: bold;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* .text_list {
+
+  width: 35%;
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: middle;
+  padding-right: 10%;
+
+} */
+
+
+.sidebare {
+  float: left;
+  width: 310px;
+
+}
+
+.sidebare li {
+  margin: 10px;
+  list-style: none;
+}
+
+.sidebare li:hover {
+  color: #0d8b18b7;
+}
+
+.content-holder {
+  float: right;
+  width: calc(100% - 310px);
+
+
+
+
+
+
+}
+
+.cards {
+  width: 33.33%;
+  display: inline-block;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.filter {
+  float: left;
+  width: 310px;
+
+}
+
+.box_filter {
+  float: right;
+  width: auto;
+
+}
+
+
+
+.pagination {
+  float: right;
+
+
+}
+
+.pagination li {
+  display: inline-block;
+
+
+
+}
+
+.content-holder li {
+  display: inline-block;
+  margin: 10px;
+  color: #000000;
+  text-decoration: none;
+
+
+}
+
+.content-holder li:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #055241;
 }
