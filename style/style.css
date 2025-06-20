@@ -1,18 +1,24 @@
 @font-face {
   font-family: 'Cera Pro';
-  src: url('/fonts/CeraPro-Regular.woff2');
+ src: url(/fonts/CeraPro-Regular.woff2);
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url(/fonts/CeraPro-Bold.woff2);
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 
 
-
-
 @font-face {
   font-family: 'Cera Pro';
-  src: url('/fonts/CeraPro-BlackItalic.woff2');
+  src: url(/fonts/CeraPro-BoldItalic.woff2);
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -22,15 +28,18 @@
 
 
 
+
 body {
   margin: 0;
-  font-family: "Cera Pro", sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
+  line-height: normal;
+  color: #000000;
 
 }
 
 p {
-  color: rgb(12, 15, 9);
+
   font-size: 20px;
 }
 
@@ -147,6 +156,9 @@ input {
 
 .color_text {
   color: #055342bb;
+  font-weight: 850;
+  width: 16px;
+
 }
 
 
@@ -219,17 +231,34 @@ input {
 .sidebare {
   float: left;
   width: 310px;
+  text-decoration: none;
 
 }
 
 .sidebare li {
   margin: 10px;
   list-style: none;
+
+
 }
 
 .sidebare li:hover {
   color: #0d8b18b7;
+
 }
+
+.sidebare a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.sidebare a:hover {
+  color: #38c5a4;
+}
+
+
+
+
 
 .content-holder {
   float: right;
@@ -243,8 +272,15 @@ input {
 }
 
 .cards {
+
+  display: block;
+
+
+}
+
+.img_cards {
   width: 33.33%;
-  display: inline-block;
+
 }
 
 .clearfix::after {
@@ -259,26 +295,75 @@ input {
 
 }
 
+.filter a {
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.filter a:hover {
+  color: #055241;
+}
+
+.filter_list {
+  float: left;
+}
+
+.filter_sorting {
+  float: right;
+}
+
 .box_filter {
   float: right;
   width: auto;
 
 }
 
+.link-list.active a{
+  font-weight: 700;
+  border-bottom: 2px solid green ;
+  text-decoration: none;
+  color: #055241;
+}
+
+  
+
+
+.link-list.active::before{
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 16px;
+background: #055241;
+position: absolute;
+bottom: -20px;
+left: 0;
+}
+
+
 
 
 .pagination {
   float: right;
-
-
+  border: 2px solid rgb(34, 178, 53);
 }
 
 .pagination li {
   display: inline-block;
 
 
+}
+
+.pagination li a {
+  text-decoration: none;
+  color: #141313;
 
 }
+
+.pagination li a:hover {
+  color: #96c2b8;
+}
+
 
 .content-holder li {
   display: inline-block;
