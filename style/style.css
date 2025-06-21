@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Cera Pro';
- src: url(/fonts/CeraPro-Regular.woff2);
+  src: url(/fonts/CeraPro-Regular.woff2);
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -235,25 +235,27 @@ input {
 
 }
 
-.sidebare li {
-  margin: 10px;
-  list-style: none;
-
-
-}
-
-.sidebare li:hover {
-  color: #0d8b18b7;
-
-}
-
-.sidebare a {
-  text-decoration: none;
+.sidebare__menu {
   color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+  list-style: none;
 }
 
-.sidebare a:hover {
-  color: #38c5a4;
+.sidebare__menu a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidebare__menu .active_list a {
+  color: #055241;
+  font-weight: bold;
+}
+
+.sidebare__menu a:hover {
+  color: #055241;
+  font-weight: bold;
+
 }
 
 
@@ -263,6 +265,7 @@ input {
 .content-holder {
   float: right;
   width: calc(100% - 310px);
+
 
 
 
@@ -287,23 +290,40 @@ input {
   content: "";
   display: block;
   clear: left;
-}
 
-.filter {
-  float: left;
-  width: 310px;
+
 
 }
 
-.filter a {
-  text-decoration: none;
-  color: #000000;
-
-}
-
-.filter a:hover {
+.filter_menu .active_menu a {
   color: #055241;
+  font-weight: bold;
+
+
 }
+
+.filter menu .active_menu a:hover {
+  color: #055241;
+  font-weight: bold;
+
+
+}
+
+
+.filter_menu {
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+  list-style: none;
+
+
+}
+
+.filter_menu a {
+  color: inherit;
+  text-decoration: none;
+}
+
 
 .filter_list {
   float: left;
@@ -317,52 +337,73 @@ input {
   float: right;
   width: auto;
 
+
 }
 
-.link-list.active a{
-  font-weight: 700;
-  border-bottom: 2px solid green ;
-  text-decoration: none;
-  color: #055241;
+.filter {
+  float: left;
+  width: 310px;
 }
 
-  
-
-
-.link-list.active::before{
-  display: inline-block;
-  content: "";
-  width: 8px;
-  height: 16px;
-background: #055241;
-position: absolute;
-bottom: -20px;
-left: 0;
+.filter_select {
+  border: none;
 }
+
+
+
+
+
+
+
 
 
 
 
 .pagination {
   float: right;
-  border: 2px solid rgb(34, 178, 53);
+
+
+
+
+}
+
+.pagination a {
+  text-decoration: none;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 4px;
+  color: #000000;
+
+
+}
+
+.pagination a:hover {
+  background: #0e8543;
+  color: #fff;
+
+}
+
+.pagination.active a {
+  background: #0e8543;
+  color: #9d9e9e;
+
 }
 
 .pagination li {
+  border: 1px solid forestgreen;
   display: inline-block;
 
-
 }
 
-.pagination li a {
-  text-decoration: none;
-  color: #141313;
 
-}
 
-.pagination li a:hover {
-  color: #96c2b8;
-}
+
+
+
+
+
 
 
 .content-holder li {

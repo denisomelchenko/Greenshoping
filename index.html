@@ -56,7 +56,7 @@
 
         <ul class="sidebare__menu">
 
-          <li class="link-list active"> <a href="">House Planst</a></li>
+          <li class="active_list"> <a href="">House Planst</a></li>
           <li> <a href="">Potter Plants</a></li>
           <li> <a href="">Seeds</a></li>
           <li> <a href="">Small plants</a></li>
@@ -68,21 +68,26 @@
         </ul>
 
 
-        <a href=""> <img src="images/banner.svg" alt=""></a>
+
+        <a target="_blank" href=""> <img src="images/banner.svg" alt=""></a>
       </aside>
       <!-- права колонка -->
       <section class="content-holder">
         <div class="filter clearfix ">
-          <ul>
-            <li> <a href="">All Planst</a></li>
+          <ul class="filter_menu">
+            <li class="active_menu"> <a href="">All Planst</a></li>
             <li> <a href="">New Arivals</a></li>
             <li> <a href="">Sale</a></li>
           </ul>
         </div>
-        <div class="box_filter">
-          <p>Short by:default storing</p>
-
-        </div>
+        <label class="box_filter" for="#">
+          <span>Short By:</span>
+          <select name="#" id="#" class="filter_select">
+            <option value="">Blushing Bromeliadeed</option>
+            <option value="">Default Sorting</option>
+            <option value="price">Default Sorting</option>
+          </select>
+        </label>
 
         <div class="cards">
           <div class="img_cards">
@@ -97,20 +102,20 @@
 
 
 
-          
-          <div class="pagination">
+
+        <div>
 
 
-            <ul>
-              <li  class="link-list active"> <a href="">1</a></li>
-              <li class="link-list"> <a href="">2</a></li>
-              <li class="link-list"> <a href="">3</a></li>
-              <li class="link-list"> <a href="">4</a></li>
-            </ul>
+          <ul class="pagination">
+            <li class="active"> <a href="">1</a></li>
+            <li> <a href="">2</a></li>
+            <li> <a href="">3</a></li>
+            <li> <a href="">4</a></li>
+          </ul>
 
 
 
-          </div>
+        </div>
       </section>
     </div>
 
