@@ -421,19 +421,66 @@ input {
 }
 
 .plants {
-  background: #055241;
-  padding: 10px;
   display: flex;
+  padding: 10px;
+
 
 
 
 }
 
 .plants-item {
-  border: 2px solid firebrick;
-  background: #1fe4b9;
+
   padding: 10px;
   width: 50%;
   display: flex;
   align-items: center;
+
+
+
+}
+
+.flex-wrapper {
+
+  padding: 10px;
+  display: flex;
+
+
+
+
+
+
+
+
+
+
+}
+
+.flex-box {
+  padding: 10px;
+  width: 100%;
+
+
+
+
+
+}
+
+.text-block {
+  text-align: center;
+
+
+}
+
+time {
+  color: #376e40;
+}
+
+.linc-flex {
+  text-decoration: none;
+  color: #000000;
+}
+
+.linc-flex:hover {
+  color: #055241;
 }
