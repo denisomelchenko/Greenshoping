@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Cera Pro';
-  src: url(/fonts/CeraPro-Regular.woff2);
+  src: url("/fonts/CeraPro-Regular.woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Cera Pro';
-  src: url(/fonts/CeraPro-Bold.woff2);
+  src: url("/fonts/CeraPro-Bold.woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -18,9 +18,17 @@
 
 @font-face {
   font-family: 'Cera Pro';
-  src: url(/fonts/CeraPro-BoldItalic.woff2);
+  src: url("/fonts/CeraPro-BoldItalic.woff2");
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url(/fonts/CeraPro-Black.woff2);
+  font-weight: 900;
+  font-style: normal;
   font-display: swap;
 }
 
@@ -31,17 +39,14 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Cera Pro", sans-serif;
   font-size: 14px;
   line-height: normal;
   color: #000000;
 
 }
 
-p {
 
-  font-size: 20px;
-}
 
 .box {
   background: #1fe4b9;
@@ -361,20 +366,15 @@ input {
 
 .pagination {
   float: right;
-
-
-
-
 }
 
 .pagination a {
-  text-decoration: none;
-  display: inline-block;
   width: 35px;
   height: 35px;
-  padding: 5px;
+  display: inline-block;
   border-radius: 4px;
-  color: #000000;
+  background: #055241;
+  border: 1px solid rgb(151, 150, 146);
 
 
 }
@@ -396,7 +396,6 @@ input {
   display: inline-block;
 
 }
-
 
 
 
