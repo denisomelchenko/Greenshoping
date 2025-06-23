@@ -26,11 +26,45 @@
 
 @font-face {
   font-family: 'Cera Pro';
-  src: url(/fonts/CeraPro-Black.woff2);
+  src: url("/fonts/CeraPro-Black.woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url(/fonts/CeraPro-Medium.woff2);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+time {
+  margin-top: 0;
+  font-weight: 500;
+
+}
+
+h2 {
+  margin-top: 0;
+  font-weight: 900;
+
+
+}
+
+h3 {
+  margin-top: 0;
+  font-weight: 700;
+
+}
+
+p {
+  margin-top: 0;
+  font-weight: 400;
+
+}
+
 
 
 
@@ -41,7 +75,7 @@ body {
   margin: 0;
   font-family: "Cera Pro", sans-serif;
   font-size: 14px;
-  line-height: normal;
+  line-height: 24px;
   color: #000000;
 
 }
@@ -479,8 +513,14 @@ time {
 .linc-flex {
   text-decoration: none;
   color: #000000;
+
+
 }
 
 .linc-flex:hover {
   color: #055241;
+}
+
+.color-box {
+  color: #6d7272;
 }
