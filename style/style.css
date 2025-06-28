@@ -181,6 +181,7 @@ input {
 .color_text {
   color: #46a358;
 
+
 }
 
 .text_block {
@@ -282,14 +283,64 @@ input {
 .cards {
   display: flex;
   flex-wrap: wrap;
-
-
+  justify-content: space-between;
 }
+
+
 
 .img_cards {
   color: #6f7272;
+  position: relative;
+  width: 33.33%;
 
 }
+
+.img_cards:hover {
+  border-top: 2px solid #46a358;
+
+}
+
+
+.img_cards:hover .card-link {
+  display: flex;
+
+}
+
+
+
+.card-link {
+  position: absolute;
+  left: 0;
+  bottom: 41px;
+  margin-top: auto;
+  right: 0;
+  display: none;
+}
+
+
+.card-link li {
+  padding: 0 10px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.card-item {
+  position: relative;
+
+}
+
+.sale-ikon {
+  width: 80px;
+  height: 29px;
+  background: #46a358;
+  color: #d1cdcd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+
+}
+
 
 .clearfix::after {
   content: "";
