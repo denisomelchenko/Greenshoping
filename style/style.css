@@ -284,6 +284,10 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 30px;
+
+
+
 }
 
 
@@ -292,11 +296,17 @@ input {
   color: #6f7272;
   position: relative;
   width: 33.33%;
+  width: calc(33% - 30px);
+  left: 0;
+  border-top: 2px solid #FBFBFB;
+  background-color: #FBFBFB;
+
+
 
 }
 
 .img_cards:hover {
-  border-top: 2px solid #46a358;
+  border-color: #46a358;
 
 }
 
@@ -304,41 +314,56 @@ input {
 .img_cards:hover .card-link {
   display: flex;
 
+
 }
+
+
 
 
 
 .card-link {
   position: absolute;
   left: 0;
-  bottom: 41px;
+  bottom: 44px;
   margin-top: auto;
   right: 0;
   display: none;
+  padding: 0;
+  justify-content: center;
+
+
 }
 
 
 .card-link li {
-  padding: 0 10px;
-  background: #ffffff;
   border-radius: 4px;
+  /* padding: 0 10px;*/
 }
+
+.card-link a {
+  background: #ffffff;
+  display: flex;
+  width: 20px;
+  height: 17px;
+}
+
+
 
 .card-item {
   position: relative;
-
 }
 
 .sale-ikon {
   width: 80px;
   height: 29px;
+  padding-bottom: 3px;
+  padding-top: 3px;
   background: #46a358;
-  color: #d1cdcd;
+  color: white;
   position: absolute;
   top: 0;
   left: 0;
   text-align: center;
-
 }
 
 
@@ -437,8 +462,6 @@ input {
   color: #000000;
   text-decoration: none;
   margin: 0 10px;
-
-
 }
 
 .content-holder li:hover {
@@ -450,8 +473,6 @@ input {
 .plants {
   display: flex;
   padding: 10px;
-
-
 }
 
 .plants-text {
@@ -472,7 +493,6 @@ input {
   align-items: center;
   margin-top: -1%;
   background: #ffffff;
-
 }
 
 .plants-item img {
@@ -484,7 +504,6 @@ input {
 
   padding: 10px;
   display: flex;
-
 }
 
 .text-r {
