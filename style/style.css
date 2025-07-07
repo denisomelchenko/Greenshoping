@@ -60,6 +60,7 @@ h1 {
 h2 {
   margin-top: 0;
 
+
 }
 
 h3 {
@@ -71,6 +72,8 @@ p {
   margin-top: 0;
   font-weight: 400;
 }
+
+
 
 body {
   margin: 0;
@@ -496,15 +499,11 @@ input {
 .box_filter {
   float: right;
   width: auto;
-
-
 }
 
 .filter {
   margin-bottom: 30px;
 }
-
-
 
 .filter_select {
   border: none;
@@ -650,9 +649,6 @@ time {
 .footer-list {
   display: flex;
   list-style: none;
-  border: 2px solid green;
-
-
 }
 
 .footer-list li {
@@ -660,7 +656,7 @@ time {
   padding-top: 80px;
   background-size: auto 80px;
   position: relative;
-  padding: 80px 15px 5px;
+  padding: 80px 5px 5px;
 
 
 }
@@ -691,17 +687,24 @@ time {
 }
 
 .btn-footer {
-  min-width: 50px;
+  min-width: 80px;
   font-size: 16px;
-  vertical-align: middle;
   background-color: #46a358;
-  text-align: center;
   padding: 8px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(70, 163, 88, 1);
   text-decoration: none;
-  border-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
   border: 2px solid #46a358;
   float: right;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.btn-footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
 
 }
 
@@ -712,4 +715,122 @@ time {
   top: 54px;
   border: none;
 
+}
+
+
+
+.bg {
+
+
+  padding: 20px;
+  margin: 0px;
+  background: linear-gradient(to right, rgba(237, 246, 239, 1), rgba(82, 195, 104, 1));
+  display: flex;
+  margin-top: -20px;
+  text-align: center;
+  justify-content: center;
+
+
+
+
+
+
+
+}
+
+.icon {
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 85px;
+  gap: 10px;
+  align-items: flex-start;
+
+
+
+
+
+}
+
+.em-icon {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 115px;
+  gap: 10px;
+  align-items: flex-start;
+
+
+
+
+
+}
+
+.tel {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 120px;
+  gap: 10px;
+  align-items: flex-start;
+
+
+}
+
+.block-info {
+  color: rgba(61, 61, 61, 1);
+  text-decoration: none;
+
+}
+
+.reg-foot {
+  margin-top: -40px;
+}
+
+
+
+.box-footer {
+  display: flex;
+  list-style: none;
+  margin-top: auto;
+  text-align: left;
+  background: rgba(251, 251, 251, 1);
+  justify-content: space-between;
+
+
+}
+
+
+
+
+.color-box-foot {
+  color: rgba(114, 114, 114, 1);
+
+
+}
+
+
+
+.list-foot {
+  color: rgba(61, 61, 61, 1);
+
+}
+
+.list-foot a {
+  text-decoration: none;
+  color: rgba(61, 61, 61, 1);
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+
+.foot-bottom {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: rgba(251, 251, 251, 1);
+  justify-content: center;
+  color: rgba(61, 61, 61, 1);
 }
