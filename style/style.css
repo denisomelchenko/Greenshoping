@@ -744,6 +744,7 @@ input {
   justify-content: space-between;
   gap: 30px;
 
+
 }
 
 
@@ -759,21 +760,16 @@ input {
   display: flex;
   align-items: flex-end;
 
+
 }
-
-
-
 
 .block-info:hover {
   color: #46a358;
-
 }
 
 .reg-foot {
   margin-top: -40px;
 }
-
-
 
 .box-footer {
   display: flex;
@@ -785,12 +781,7 @@ input {
   padding: 30px;
   max-width: 1064px;
   gap: 30px;
-
-
-
 }
-
-
 
 
 .color-box-foot {
@@ -800,16 +791,10 @@ input {
 
 
 
-
-
-
-
 .list-foot {
   color: rgba(61, 61, 61, 1);
 
 }
-
-
 
 .li-link {
   list-style: none;
@@ -832,7 +817,6 @@ input {
 
 }
 
-
 .foot-bottom {
   display: flex;
   margin: 0;
@@ -840,13 +824,15 @@ input {
   background: rgba(251, 251, 251, 1);
   justify-content: center;
   color: rgba(61, 61, 61, 1);
+
 }
 
+.foot-bottom::before {
+  content: "\00A9";
+}
 
 .social-icon {
   fill: #46a358;
-
-
 }
 
 .soc-icon {
@@ -854,7 +840,6 @@ input {
   background-color: rgba(70, 163, 88, 0.2);
   fill: rgba(70, 163, 88, 1);
   border-radius: 6PX;
-
 }
 
 .visa-icon {
@@ -870,7 +855,6 @@ input {
   fill: rgba(255, 255, 255, 1);
   margin-bottom: -5px;
 }
-
 
 .right-direction {
   fill: rgba(61, 61, 61, 1);
