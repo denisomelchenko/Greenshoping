@@ -85,11 +85,14 @@ body {
 
 .box {
   background: #46a358;
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
 }
 
 .form {
   font-size: 20px;
-  color: rgb(0, 0, 0);
+  text-align: left;
 }
 
 ::placeholder {
@@ -97,13 +100,30 @@ body {
 }
 
 input {
-  border-color: rgb(8, 8, 216);
+  border-color: rgb(224, 224, 233);
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.form-f {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
 }
 
 .form-holder {
   width: 500px;
   margin: 0 auto;
   padding: 30px;
+  text-align: center;
+
+}
+
+
+
+.col-r {
+  color: #46a358;
 }
 
 input {
@@ -882,4 +902,62 @@ input {
 
 .right-direction:hover {
   fill: #46a358;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #8b8f8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.animation {
+  width: 50px;
+  height: 150px;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 60%;
+  background: linear-gradient(to bottom, rgb(0, 68, 255), rgb(255, 234, 42));
+  position: relative;
+  animation: jump 1.5s linear infinite alternate both;
+  text-align: center;
+
+}
+
+
+
+
+.animation:nth-child(2) {
+  animation-delay: 0.5s;
+
+}
+
+.animation:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.animation:nth-child(4) {
+  animation-delay: 2s;
+}
+
+
+.animation:nth-child(5) {
+  animation-delay: 3s;
+}
+
+
+
+@keyframes jump {
+  0% {
+    bottom: 0;
+  }
+
+  100% {
+    bottom: 50%;
+  }
 }
