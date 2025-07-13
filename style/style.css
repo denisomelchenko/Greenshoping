@@ -113,7 +113,7 @@ input {
 
 .register {
   font-size: 30px;
-  color: rgb(15, 14, 26);
+  color: rgb(29, 34, 30);
 }
 
 .header_logo,
@@ -185,6 +185,7 @@ input {
 
 
 }
+
 
 
 
@@ -759,6 +760,8 @@ input {
   text-decoration: none;
   display: flex;
   align-items: flex-end;
+  margin-top: -5px;
+
 
 
 }
@@ -833,6 +836,9 @@ input {
 
 .social-icon {
   fill: #46a358;
+  position: absolute;
+  margin-left: -20px;
+
 }
 
 .soc-icon {
@@ -840,6 +846,12 @@ input {
   background-color: rgba(70, 163, 88, 0.2);
   fill: rgba(70, 163, 88, 1);
   border-radius: 6PX;
+  width: 30px;
+  height: 30px;
+}
+
+.soc-icon:hover {
+  fill: rgba(255, 255, 255, 1);
 }
 
 .visa-icon {
@@ -848,7 +860,12 @@ input {
 }
 
 .soc-col {
-  color: rgba(61, 61, 61, 1);
+  fill: #000000;
+}
+
+.soc-col:hover {
+  fill: #46a358;
+
 }
 
 .s-right {
@@ -861,4 +878,8 @@ input {
 
   margin-bottom: -4px;
 
+}
+
+.right-direction:hover {
+  fill: #46a358;
 }
