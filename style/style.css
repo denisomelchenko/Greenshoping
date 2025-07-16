@@ -961,3 +961,48 @@ input {
     bottom: 50%;
   }
 }
+
+input[type="checkbox"] {
+  background: red;
+  position: absolute;
+  left: -9999px;
+
+
+}
+
+.chbx {
+  display: flex;
+  margin-right: 60px;
+}
+
+.chbx:hover {
+  color: #46a358;
+}
+
+
+
+
+
+
+
+
+
+
+.checked-line span::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(26, 24, 25);
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 25px 0 150px;
+  font-size: 20px;
+
+
+}
+
+.checked-line input:checked+span::before {
+  content: '\2714';
+
+}
